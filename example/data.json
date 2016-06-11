@@ -1,0 +1,27 @@
+[
+    {
+        "info": "red",
+        "color": "#6F0000",
+        "image": "https://openclipart.org/image/300px/svg_to_png/27530/secretlondon-red-present.png"
+    },
+    {
+        "info": "gold",
+        "color": "#837335",
+        "image": "https://openclipart.org/image/300px/svg_to_png/27532/secretlondon-Gold-present.png"
+    },
+    {
+        "info": "purple",
+        "color": "#4A004A",
+        "image": "https://openclipart.org/image/300px/svg_to_png/27534/secretlondon-Purple-present.png"
+    },
+    {
+        "info": "green",
+        "color": "#004C00",
+        "image": "https://openclipart.org/image/300px/svg_to_png/27533/secretlondon-Green-present.png"
+    },
+    {
+        "info": "blue",
+        "color": "#005BB7",
+        "image": "https://openclipart.org/image/300px/svg_to_png/26498/Minduka-Present-Blue-Pack.png"
+    }
+]

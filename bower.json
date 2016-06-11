@@ -1,0 +1,25 @@
+{
+  "name": "d3-wheel-of-fortune",
+  "description": "A wheel of fortune based on d3",
+  "main": "d3-wheel-of-fortune.js",
+  "authors": [
+    "Geoffrey Brossard <me@geoffreybrossard.fr>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "d3",
+    "wheel",
+    "fortune"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "3.5.5"
+  }
+}

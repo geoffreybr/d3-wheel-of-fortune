@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Simple example of d3-wheel-of-fortune</title>
+        <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="../d3-wheel-of-fortune.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <svg></svg>
+        <script type="text/javascript">
+            /* set up the wheel of fortune */
+            var wheel = d3.wheel();
+            wheel.width(500).height(500)
+                .selectorPosition(180)
+                .defaultRotation(90)
+                .rotationTimeMS(700)
+                .color("#444444")
+                .innerRadius(75);
+
+            /* register event listeners */
+            wheel.on("select", function(d) { alert("You selected the " + d.info + " present !"); });
+            wheel.on("mouseover", function(d) { console.log("mouse on " + d.info); });
+            wheel.on("mouseout", function(d) { console.log("mouse out of " + d.info); });
+
+            /* add the wheel to the page */
+            d3.json("data.json", function(d) {
+                d3.select("svg").datum(d).call(wheel);
+            });
+        </script>
+    </body>
+</html>
